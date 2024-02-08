@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#panel{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: beige;
+    overflow: hidden;
+
+
+
+    
+}
+#ptop{
+    background-color: green;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30%;
+    align-items: center;
+    text-transform: uppercase;
+}
+#pbtm{
+    width: 100%;
+    padding: 20px;
+    height: 80%;
+    background-color: lightgreen;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.box{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+
+
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(26, 164, 26);
+    border-radius: 50%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.elem h2{
+    font-weight: 600;
+    font-style: italic;
+    color: aliceblue;
+}
+.bubble:hover{
+    background-color: rgb(7, 96, 7);
+    cursor: pointer;
+    
+}
